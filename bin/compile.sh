@@ -50,8 +50,8 @@ do
 		short_file_name=$directory_names
 	fi
 	pandoc -o $target_file_name $file_name
-	chown -Rf www-data $target_file_name
-	chgrp -Rf www-data $target_file_name
+	chown -Rf vejmarie $target_file_name
+	chgrp -Rf vejmarie $target_file_name
 	# I must add a link into the main documentation file
 	echo "<br><a href=\"http://ruggedpod.qyshare.com/documentation/$web_path/$short_file_name\"> $short_file_name </a>" >> /usr/share/wordpress/documentation/README.html
 done
