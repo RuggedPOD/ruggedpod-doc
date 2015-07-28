@@ -1,7 +1,7 @@
 #!/bin/bash
 cd /home/vejmarie/compile/doc
 # I am updating the local git
-# git pull
+git pull
 # just a short test
 file=`find . -name '*.md'`
 for file_name in $file
@@ -53,5 +53,5 @@ do
 	chown -Rf www-data $target_file_name
 	chgrp -Rf www-data $target_file_name
 	# I must add a link into the main documentation file
-	echo "<br><a href=\"http://ruggedpod.qyshare.com/documentation/$web_path/$short_file_name\"> $short_file_name </a>" >> /usr/share/wordpress/documentation/README.html;
+	echo "<br><a href=\"http://ruggedpod.qyshare.com/documentation/$web_path/$short_file_name\"> $short_file_name </a>" >> /usr/share/wordpress/documentation/README.html
 done
