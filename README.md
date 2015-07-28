@@ -8,3 +8,5 @@ git clone ssh://vejmarie@ruggedpod.qyshare.com/home/vejmarie/doc/doc.git
 Then use traditionnal git push, pull and commit command. You need an account on our server. To do that simply register to https://ruggedpod.qyshare.com/wp-login then send a mail to team(at)ruggedpod.qyshare.com to enable this account as being a writer.
 
 The maintainer is vejmarie and can be reached at vejmarie(at)ruggedpod.qyshare.com
+
+Test JJ
