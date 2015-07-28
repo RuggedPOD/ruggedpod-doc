@@ -1,7 +1,7 @@
 #!/bin/bash
 cd /home/vejmarie/compile/doc
 # I am updating the local git
-git pull
+# git pull
 # just a short test
 file=`find . -name '*.md'`
 for file_name in $file
