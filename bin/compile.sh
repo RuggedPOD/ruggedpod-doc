@@ -1,4 +1,14 @@
 #!/bin/bash
+#
+# This script is "compiling" through Pandoc the whole documentation from the RuggedPOD project
+# It is lo
+# (c) 2015 Splitted-Desktop Systems
+# Author: Jean-Marie Verdun
+#
+# Released under GPL v2
+# http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+# 
+
 cd /home/vejmarie/compile/doc
 # I am updating the local git
 git pull
@@ -52,6 +62,10 @@ do
 	pandoc -o $target_file_name $file_name
 	chown -Rf vejmarie $target_file_name
 	chgrp -Rf vejmarie $target_file_name
-	# I must add a link into the main documentation file
-	echo "<br><a href=\"http://ruggedpod.qyshare.com/documentation/$web_path/$short_file_name\"> $short_file_name </a>" >> /usr/share/wordpress/documentation/README.html
+	# We must add a link into the main documentation file
+	# We must add the link to the bottom only if this is not part of the README file
+	if [ "$short_file_name" != "README.html" ]	
+	then
+		echo "<br><a href=\"http://ruggedpod.qyshare.com/documentation/$web_path/$short_file_name\"> $short_file_name </a>" >> /usr/share/wordpress/documentation/README.html
+	fi
 done
