@@ -1,4 +1,4 @@
-## This is RuggedPOD documentation tree
+This is RuggedPOD documentation tree
 
 You will find in this tree everything regarding RuggedPOD project. From software specifications to hardware, as well as theoretical results from RuggedPOD.
 You can easily contribute to this documentation either by being a reviewer or writing some part of it. The documentation is accessible through our git 
