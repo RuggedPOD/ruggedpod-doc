@@ -9,10 +9,10 @@ Accidents are prevented by foreseeing potentially hazardous situations and obser
 The fundamental safety standards are listed in the “SAFETY” section of this manual and also in the section involving.  
 The Manufacturer reserves the right to up-date the technical information gifrven in this manual without notice.  
 
-#Content #
+# Content #
 [TOC]
 
-#I. Overview #
+# I. Overview #
 RuggedPOD is a chassis designed to run outdoor and support up to 1kW without active cooling element. The PODs are designed to be interconnected together as a mesh network even if they can support traditional topologies. Each POD must be equipped with a network input and a power supply input. 
 
 RuggedPOD is using the thermal property of oil to cool electronic systems. It is using an immersive approach, which is avoiding the need of any humidity control solution, as water doesn’t mix into RuggedPOD coolant which makes it a unique outdoor solution.
