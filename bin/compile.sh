@@ -59,7 +59,7 @@ do
 		target_file_name="/usr/share/wordpress/documentation/"$directory_names
 		short_file_name=$directory_names
 	fi
-	pandoc -o $target_file_name $file_name
+	pandoc -t html5 --toc -s -S -V toctitle:'Table of content' -o $target_file_name $file_name
 	chown -Rf vejmarie $target_file_name
 	chgrp -Rf vejmarie $target_file_name
 	# We must add a link into the main documentation file
