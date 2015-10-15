@@ -22,11 +22,14 @@ RuggedPOD is using the thermal property of oil to cool electronic systems. It is
 ### I.I. Mechanical ###
 The pod is designed to support 4 Blades, each equipped with 1 motherboard (ATX/mini ITX/Micro ATX), a 3,5'HDD, 1 SSD and a pump.
 The blades are mounted on a backplane located at the bottom of the chassis, this one provides power to the motherboards.
+
 ### I.II. Power managment ###
 The power supply provides 1kW in 24V distributed to the blades and the network switch.
 4 DCDC boards are located on the blades as mezzanine boards to convert the power in appropriate voltage for the motherboards, 1 other DCDC located in the bottom of the chassis convert the power for the switch.
+
 ### I.III. Network ###
 The Blades are connected to a switch via the backplane. This can provide Remote management and control, thanks to it's controller function.
+
 ### I.IV.Sensors ###
 Sensors are arranged in order to contol :
 CPU temperature
@@ -36,6 +39,7 @@ External ambiant temperature
 coolant level (leak detection)
 Power consumption
 All sensors are connected to the controler board.
+
 ### I.V. Coolant ###
 Organic oil coolant for RuggedPOD is fully bio compatible, and can work without degradation up to -10 C degrees. As to offer lower temperature operation RuggedPOD support a heating option to avoid that the oil temperature goes too low especially during system maintenance or shutdown operation.
 
@@ -44,6 +48,7 @@ The installation and handling of a RuggedPOD is for technicians trained in elect
 Never work on a Running Ruggedpod.
 Always disconnect RuggedPod from the power outlet while working on it.  
 Never open a RuggedPOD when raining or in a wet environement.
+
 # III. Installation #
 Unpack the ruggedPOD shipping carton, and locate the materiel for installing the POD.
 Shipping carton includes:
@@ -66,12 +71,15 @@ times.
 • Unplug the power cord from the power supply to disconnect power to the equipment.
 • Do not route the power cord where it can be walked on or pinched by items placed against it.
 Pay particular attention to the plug, electrical outlet, and the point where the cord extends from the server.
+
 ### III.II. Required tools ###
 You need the following items for some procedures:
 • Torx T-15 screwdriver
 • Phillips screwdriver
 • Flathead screwdriver
+
 ### III.III Blade servers assembly ###
+
 #### Motherboards ####
 Each blade supports mini-ITX, Micro Atx or Atx form factor motherboard, do not try to mount other format. 
 >**Note**: We will use an ATX motherboard as an example on each illustration.
@@ -89,6 +97,7 @@ Each blade supports mini-ITX, Micro Atx or Atx form factor motherboard, do not t
 2. Screw the drive
 
 ![enter image description here](http://www.horizon-computing.com/Webdav/Public/ruggedpod_usermanual/pictures/installation/harddrives.jpg)
+
 #### DCDC ####
 >1. Position the DCDC 
 2. Screw the board
@@ -105,19 +114,24 @@ Each blade supports mini-ITX, Micro Atx or Atx form factor motherboard, do not t
 2. Screw it
 
 ![pump mounting](http://www.horizon-computing.com/Webdav/Public/ruggedpod_usermanual/pictures/installation/pump_mounting.jpg)
+
 #### Cabling ####
 DCDC
 Pump
 Network
+
 # IV. Mounting blade on RuggedPOD #
 Rack the blade
+
 # V. Fill RuggedPOD with oil #
 Fill the tank gently avoiding to pour oil directly on the backplane until the level reaches approximately 3/4 of the tank.
+
 # VI. Create vaccum #
 Due to the fact that the deterioration of the oil is caused generally by the oxidation, the
 method to prevent consists of reducing to a minimum possible its contact surface with the
 air. That is why vaccum condition is needed inside the tank, this will avoid oil oxidation and guaranty a constant pressure despite oil heat variation.
->**Important:** If you constat vaccum issue please contact the manufacturer
+>**Important:** If you constat vaccum issue please contact the manufacturer.
+>
 ### VI.I Required equipment ###
 
  - Vaccum pump
@@ -127,13 +141,17 @@ air. That is why vaccum condition is needed inside the tank, this will avoid oil
 Take care that the sealer is properly positioned in its trench.
 Plug Network and power out put cable to related network and power supply.
 Position the cover on the tank, then screw each 24 screws.
+
 ### VI.III Vaccum ###
 Take the pump and plug it on the valve.
 Turn of the valve and wait that pressure comes below 0.2 bar.
 Then turn off the pump and unplug it.
 We recommend to check that the pressure did not rise up during the hour following the creation of the vacuum.
 >**Note:** RuggedPOD is designed for 25 vaccum cycles.
+
+
 # VII. Implementation locations #
+
 ### VII.I. Installation recommendations ###
  - RuggedPOD is designed to run in outdoor condition provided by keeping it protected from direct expostion to sun light.
  - It must be placed in a flat surface on a support which ensures an elevation of at least 50 cm from the ground to allow free convection cooling.
@@ -141,11 +159,14 @@ We recommend to check that the pressure did not rise up during the hour followin
  - Keep a clear space of at least 50cm from each side of the RuggedPOD.
  - Floor must support at least 200kg/m2.
  - In case of implementation in a very dusty place a regular cleaning of the alveoli is needed, these being obstructed may cause free convection stop and harm cooling.
+ - 
 ### VII.II. Outdoor ###
 We recommend to make PODs difficult to access to public and unauthorized persons to avoid from stealing and degradation.
+
 ### VII.III. Indoor ###
 Rugged pod must be in a ventilated environement to avoid ambiant temperature increasing.
 Always keep ruggedPOD in at least 50cm free aera.
+
 ### VII.IV. Operating temperatures table ###
 RuggedPOD is an electronic chassis designed to run outdoor and support up to 1kW without active cooling element, the amount of power it's able of support is function of the ambiant temperature.
 
@@ -170,14 +191,19 @@ RuggedPOD is an electronic chassis designed to run outdoor and support up to 1kW
 </TABLE> 
 
 >**Important:** these values correspond to RuggedPOD in a shaded environement.
+>
 # VIII. Turn on the POD #
->**Important:** Only trained technicians may handle the RuggedPOD
+>**Important:** Only trained technicians may handle the RuggedPOD.
+>
 ### VIII.I. Power up the POD ###
 Plug power cable to broker.
 drawing to add
 >**Important:** Never use RuggedPOD without broker, you will expose you to high electrical danger.
+>
 ### VIII.II. tgtgt ###
+
 # IX. Configuration #
+
 ### IX.I. BMC ###
 The backpanel integrates a remote management card able to provide the following core functions :
  - Remote power on/off of each Blades
@@ -189,10 +215,13 @@ These actions are available through a ReST API, as well as CLI, a web interface 
 
 ### IX.II. Bios Setting ###
 Fdsdfsdfsd
+
 # X. Maintenance #
 >**Important:** All maintenance activity must be done out of the production field in a separated aera, RuggedPOD power off by a trained technician.
 >Check regularly oil leaks from the ends and the welded parts of the panels. If oil is leaking, report it to the manufacturer.
+>
 ### X.I. Alveolar panels ###
+
 It is necessary to take a special care for alveolar panels maintenance and inspection, since any
 abnormality can reduce the useful life of the servers or cause serious defects.
 Be sure that alveoli are not obstructed.
@@ -201,49 +230,68 @@ This recommendation is especially important in a dusty environment.
 >To clean the panel you can use pressure washer taking care to cable.
 
 ### X.II.Tank ###
+
 #### Unseal the Tank ####
 Turn off the server and wait several minutes to let the server cool before removing the server cover.
 Unscrew all 24 screws then unplug output cables inside the tank. You can now remove the cap. 
+
 #### Change Battery ####
 Empty the tank from oil first. 
 Unplug all cables from power supply to controller board and network switch.
 Then unscrew the 4 screws tha fix the PSU to its support.
 Place the new one and repeat the process in reverse.
+
 #### Change controler board ####
 Empty the tank from oil first.
 Unrack the blade to access to controler board
 Unplug power and RJ45 cables.
 Remove screws and take the board, place the new one and repeat the process in reverse.
+
 #### Change Backplane ####
 Empty the tank from oil first.
 Unrack all blades server, then unplug all rR45, GPIO and power cables.
 Remove the backplane, place the new one and repeat the process in reverse.
+
 ### Blade server ###
+
 #### Remove a Blade Server ####
 Simply unrack the blade.
 Take care that the POD is powered off
+
 #### Change a motherboard ####
 Unplug ATX cable, 12V cable And network cable.
 You can unscrew the motherboard and remove it.
 Repeat the process in reverse to install the new one.
+
 #### Change DCDC ####
 Unplug ATX cable, You can unscrew the DCDC and remove it.
 Repeat the process in reverse to install the new one.
+
 #### Change Pump ####
 Unplug power cable, then unscrw the pump.
 Repeat the process in reverse to install the new one.
 Pay attention to replace the pump in the same position as shown on the drawing below:
+
 #### Change Hard drive ####
 Unscrew the hard drive and remove it.
 Screw the new one.
+
 #### Change Connection Board ####
+
 # XI. General Problem #
+
 ### XI.I. Hardware Problem ###
+
 #### Power ####
+
 #### Cables ####
+
 #### Motherboards ####
+
 #### Storage ####
+
 ### XI.II. Software Problem ###
+
 ### XI.III. Vaccum Problem ###
 To air leakage, verify the pressure inside the tank thanks to the manometer, any increasing means there is an air leakage. In that case follow the instructions below:
 
@@ -263,6 +311,7 @@ Oil leaks are more likely at the welds, so check occasionally the welds between 
 Seeing oil at the ground may due to oil leakage too.
 In case of oil leakage, power off the POD and contact the manufacturer.
 >**Important:** Oil leakage means you have probably also an air leakage, don not use ruggedPOD in that condition.
+>
 # XII. Compliance #
 
 Normes US et normes EU
@@ -271,6 +320,7 @@ Sécurité electrique
 Etancheité eau et air
 
 # XIII. Specifications #
+
 #### Mechanical specifications ####
 <Table>
 <TR>  
@@ -318,6 +368,7 @@ Etancheité eau et air
  <TD> 1m </TD> 
   </TR> 
  </Table>
+
 # XIV. Support Information #
 Before you contact us, be sure to have the following informations :
  - Product serial number
