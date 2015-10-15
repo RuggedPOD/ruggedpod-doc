@@ -349,6 +349,1195 @@ Raspberry also controls power on and power off of the pumps in order to keep a h
 ![](http://www.horizon-computing.com/Webdav/Public/ruggedpod_electronics/power_header_molex.png)
 #### 4.1.2. Data header FCI 10018783-10000MLF ####
 
+<TABLE >
+	<TR>
+		<TD ROWSPAN=5 WIDTH=14>
+			<P ALIGN=CENTER>1</P>
+		</TD>
+		<TD ROWSPAN=2 WIDTH=63 VALIGN=TOP>
+			<P LANG="en-US">Cable between power supply and backplane</P>
+		</TD>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P><SPAN LANG="en-US">Alpha Wire Black Equipment Wire, 0.96 mm&sup2;
+			CSA, 600 V 11.5 A, PTFE insulation, </SPAN><FONT COLOR="#ff0000"><SPAN LANG="en-US">18
+			AWG</SPAN></FONT></P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P LANG="en-US">Alpha Wire</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P LANG="en-US">5857 BK005</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">2</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P><SPAN LANG="en-US">Alpha Wire Red Hookup Wire, 0.96 mm&sup2;
+			CSA , 600 V 11.5 A, PTFE insulation, </SPAN><FONT COLOR="#ff0000"><SPAN LANG="en-US">18
+			AWG</SPAN></FONT></P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P LANG="en-US">Alpha Wire</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P LANG="en-US">5857 RD005</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">2</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=63 VALIGN=TOP>
+			<P LANG="en-US">Connector on power supply</P>
+		</TD>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P><SPAN LANG="en-US">TE Connectivity PLASTI-GRIP Series Insulated
+			Tin Plated Crimp Ring Terminal, </SPAN><FONT COLOR="#ff0000"><SPAN LANG="en-US">M4</SPAN></FONT>
+			<SPAN LANG="en-US">Stud Size, 22 &rarr; 16 AWG, Red</SPAN></P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P><A HREF="http://uk.rs-online.com/web/b/te-connectivity/"><SPAN LANG="en-US">TE
+			Connectivity</SPAN></A></P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P LANG="en-US">34148</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">4</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP BGCOLOR="#d9d9d9">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2 WIDTH=63 VALIGN=TOP>
+			<P LANG="en-US">Connector on backplane</P>
+		</TD>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P>7.50mm Pitch Super Sabre&trade; Receptacle Crimp Housing, UL
+			94V-2, Glow Wire Capable, 4 Circuits 
+			</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P>Molex</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P>172672-3004</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP BGCOLOR="#d9d9d9">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P>Super Sabre&trade; Female Crimp Terminal</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P>Molex 
+			</P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P>171825-0100</P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P>4</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP BGCOLOR="#d9d9d9">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=6 WIDTH=14>
+			<P ALIGN=CENTER>2</P>
+		</TD>
+		<TD ROWSPAN=2 WIDTH=63 VALIGN=TOP>
+			<P LANG="en-US">Cable between DC/DC 5V/12V and backplane (power
+			in)</P>
+		</TD>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P LANG="en-US">Alpha Wire Black Equipment Wire, 0.96 mm&sup2;
+			CSA, 600 V 11.5 A, PTFE insulation, 18 AWG</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P LANG="en-US">Alpha Wire</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P LANG="en-US">5857 BK005</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">1</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P LANG="en-US">Alpha Wire Red Hookup Wire, 0.96 mm&sup2; CSA ,
+			600 V 11.5 A, PTFE insulation, 18 AWG</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P LANG="en-US">Alpha Wire</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P LANG="en-US">5857 RD005</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">1</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2 WIDTH=63 VALIGN=TOP>
+			<P LANG="en-US">Connector on DC/DC 5V/12V</P>
+		</TD>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P LANG="en-US">KK&reg; 3.96mm Crimp Terminal Housing, 3 Circuits</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P>Molex</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P>09-50-7031</P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">1</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP BGCOLOR="#d9d9d9">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P LANG="en-US">KK&reg; 396 Crimp Terminal 2478, 18-24 AWG, Reel,
+			Brass Tin (Sn) 
+			</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P>Molex</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P>08-50-0105 
+			</P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">2</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP BGCOLOR="#d9d9d9">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2 WIDTH=63 VALIGN=TOP>
+			<P LANG="en-US">Connector on backplane</P>
+		</TD>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P LANG="en-US">7.50mm Pitch Super Sabre&trade; Receptacle Crimp
+			Housing, UL 94V-0, 2 Circuits</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P>Molex</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P>172672-2002 
+			</P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">1</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP BGCOLOR="#d9d9d9">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P>Super Sabre&trade; Female Crimp Terminal</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P>Molex</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P>171825-0100</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">2</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP BGCOLOR="#d9d9d9">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=7 WIDTH=14>
+			<P ALIGN=CENTER>3</P>
+		</TD>
+		<TD ROWSPAN=3 WIDTH=63 VALIGN=TOP>
+			<P LANG="en-US">Cable between DC/DC 5V/12V and backplane (power
+			out)</P>
+		</TD>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P LANG="en-US">Alpha Wire Black Equipment Wire, 0.96 mm&sup2;
+			CSA, 600 V 11.5 A, PTFE insulation, 18 AWG</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P LANG="en-US">Alpha Wire</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P LANG="en-US">5857 BK005</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">4</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P LANG="en-US">Alpha Wire Red Hookup Wire, 0.96 mm&sup2; CSA ,
+			600 V 11.5 A, PTFE insulation, 18 AWG</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P LANG="en-US">Alpha Wire</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P LANG="en-US">5857 RD005</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">2</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P LANG="en-US">Alpha Wire Yellow Hookup Wire, 0.96 mm&sup2; CSA ,
+			600 V 11.5 A, PTFE insulation, 18 AWG</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P LANG="en-US">Alpha Wire</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P LANG="en-US">5857 YL005</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">2</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2 WIDTH=63 VALIGN=TOP>
+			<P LANG="en-US">Connector on DC/DC 5V/12V</P>
+		</TD>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P>Atx 12 pin Mini-Fit Jr.&trade; <SPAN LANG="en-US">Receptacle
+			Housing, Dual Row, UL 94V-2, 12 Circuits</SPAN></P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P>Molex 
+			</P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P>39-01-2120</P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">1</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP BGCOLOR="#d9d9d9">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P LANG="en-US">Mini-Fit&reg; Female Crimp Terminal, Tin (Sn) over
+			Copper (Cu) Plated Brass, 18-24 AWG</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P>Molex 
+			</P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P>39-00-0038</P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">8</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP BGCOLOR="#d9d9d9">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2 WIDTH=63 VALIGN=TOP>
+			<P LANG="en-US">Connector on backplane</P>
+		</TD>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P>Atx 12 pin Mini-Fit Jr.&trade; <SPAN LANG="en-US">Receptacle
+			Housing, Dual Row, UL 94V-2, 12 Circuits</SPAN></P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P>Molex 
+			</P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P>39-01-2120</P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">1</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP BGCOLOR="#d9d9d9">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P LANG="en-US">Mini-Fit&reg; Female Crimp Terminal, Tin (Sn) over
+			Copper (Cu) Plated Brass, 18-24 AWG</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P>Molex 
+			</P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P>39-00-0038</P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">8</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP BGCOLOR="#d9d9d9">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=14>
+			<P ALIGN=CENTER>4</P>
+		</TD>
+		<TD WIDTH=63 VALIGN=TOP>
+			<P LANG="en-US">Cable between Raspberry and backplane (power)</P>
+		</TD>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P>Xiuhong Boutique Pair USB A m&acirc;le gauche droit coude Micro
+			5P gauche droit coude 90 degr&eacute;s C&acirc;ble micro USB de
+			charge c&acirc;ble</P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P><A HREF="http://www.amazon.fr/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&amp;seller=A26U12WZ353NEA"><SPAN LANG="en-US">XiuHong
+			Shop</SPAN></A></P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P LANG="en-US">B00W9J7F0I (amazon)</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">1</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP>
+			<P LANG="en-US">25cm</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=3 WIDTH=14>
+			<P ALIGN=CENTER>5</P>
+		</TD>
+		<TD WIDTH=63 VALIGN=TOP>
+			<P LANG="en-US">Cable between Raspberry and backplane (data)</P>
+		</TD>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P LANG="en-US">Harting 26 Way Unscreened Flat Ribbon Cable, 1.27
+			mm pitch, 28 AWG</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P LANG="en-US">Harting</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P LANG="en-US">6618297000710</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">1</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=63 VALIGN=TOP>
+			<P LANG="en-US">Connector on Raspberry</P>
+		</TD>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P LANG="en-US">26 way polarised skt w/o strain relief</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P LANG="en-US">TE Connectivity</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P LANG="en-US">1658621-6</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">1</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP BGCOLOR="#d9d9d9">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=63 VALIGN=TOP>
+			<P LANG="en-US">Connector on backplane</P>
+		</TD>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P LANG="en-US">26 way polarised skt w/o strain relief</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P LANG="en-US">TE Connectivity</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P LANG="en-US">1658621-6</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">1</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP BGCOLOR="#d9d9d9">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=5 WIDTH=14>
+			<P ALIGN=CENTER>6</P>
+		</TD>
+		<TD ROWSPAN=2 WIDTH=63 VALIGN=TOP>
+			<P LANG="en-US">Cable between Switch and backplane</P>
+			<P LANG="en-US">(power)</P>
+		</TD>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P LANG="en-US">Alpha Wire Black Equipment Wire, 0.96 mm&sup2;
+			CSA, 600 V 11.5 A, PTFE insulation, 18 AWG</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P LANG="en-US">Alpha Wire</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P LANG="en-US">5857 BK005</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">1</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P LANG="en-US">Alpha Wire Red Hookup Wire, 0.96 mm&sup2; CSA ,
+			600 V 11.5 A, PTFE insulation, 18 AWG</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P LANG="en-US">Alpha Wire</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P LANG="en-US">5857 RD005</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">1</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=63 VALIGN=TOP>
+			<P LANG="en-US">Connector on switch</P>
+		</TD>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P>Connecteurs d'alimentation continue DC PWR PLG 0.080&quot;
+			1.8&quot;L, BLK HAND. LCK <SPAN LANG="pt-BR">2 (Inner Dia.) mm,
+			5.5 (Outer Dia.) mm</SPAN> 
+			</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P>Switchcraft</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P>S761K 
+			</P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">1</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP BGCOLOR="#d9d9d9">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2 WIDTH=63 VALIGN=TOP>
+			<P LANG="en-US">Connector on backplane</P>
+		</TD>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P LANG="en-US">Mini-Fit Jr.&trade; Receptacle Housing, Dual Row,
+			UL 94V-2, 2 Circuits</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P>Molex 
+			</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P>39-01-2020</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">1</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP BGCOLOR="#d9d9d9">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P LANG="en-US">Mini-Fit&reg; Female Crimp Terminal, Tin (Sn) over
+			Copper (Cu) Plated Brass, 18-24 AWG</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P>Molex</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P>39-00-0038</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">2</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP BGCOLOR="#d9d9d9">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=14>
+			<P ALIGN=CENTER>7</P>
+		</TD>
+		<TD WIDTH=63 VALIGN=TOP>
+			<P LANG="en-US">Cable between raspberry and switch</P>
+		</TD>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P>C&acirc;ble RJ45 CAT.5 avec 1 t&ecirc;te coud&eacute;e 90&deg;
+			Noir</P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P>Pearl</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P>KT5775-910</P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">1</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP>
+			<P LANG="en-US">60cm</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=14>
+			<P>8</P>
+		</TD>
+		<TD WIDTH=63 VALIGN=TOP>
+			<P LANG="en-US">Cable between switch and backplane</P>
+			<P LANG="en-US">(data)</P>
+		</TD>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P LANG="en-US">Standard network cable</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">4</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=4 WIDTH=14>
+			<P ALIGN=CENTER>9</P>
+		</TD>
+		<TD WIDTH=63 VALIGN=TOP>
+			<P LANG="en-US">Cable between switch and top cover</P>
+		</TD>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P LANG="en-US">Network cable</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">1</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=63 VALIGN=TOP>
+			<P LANG="en-US">Connector on switch</P>
+		</TD>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P LANG="en-US">Standard RJ45 connector</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">1</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP BGCOLOR="#d9d9d9">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=63 VALIGN=TOP>
+			<P LANG="en-US">Connector on top cover (internal side)</P>
+		</TD>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P LANG="en-US">Contacts</P>
+			<P LANG="en-US">Bouchon D</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P LANG="en-US">Fischer</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P LANG="en-US">*DEE 1031 A010-130 | contact</P>
+			<P LANG="en-US">*1031.824 | Bouchon D</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">1</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP BGCOLOR="#d9d9d9">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=63 VALIGN=TOP>
+			<P LANG="en-US">Connector on top cover (external side)</P>
+		</TD>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P>Bouchon</P>
+			<P>Poulet</P>
+			<P>Corps</P>
+			<P>Serre cable</P>
+			<P>Contacts</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P LANG="en-US">Fischer</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P LANG="en-US">*1031.825|Bouchon S</P>
+			<P LANG="en-US">*S 1031 A010-130+</P>
+			<P LANG="en-US">*S 1031 A010-130+</P>
+			<P LANG="en-US">*E3 1031.2/6.7|SE</P>
+			<P LANG="en-US">*S 1031 A010-130+</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP BGCOLOR="#d9d9d9">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=4 WIDTH=14>
+			<P ALIGN=CENTER>10</P>
+		</TD>
+		<TD WIDTH=63 VALIGN=TOP>
+			<P LANG="en-US">Cable between power supply and top cover</P>
+		</TD>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P>H07RN-F TITANEX 3G1.5 
+			</P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P>Nexans</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P>H07RN-F TITANEX 3G1.5</P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=63 VALIGN=TOP>
+			<P>Connector on power supply</P>
+		</TD>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P LANG="en-US">RS Crimp Ring Terminal, M3 Stud Size, 12 &rarr; 10
+			AWG, Yellow</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P>RS</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P>313043VM</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">3</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP BGCOLOR="#d9d9d9">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=63 VALIGN=TOP>
+			<P LANG="en-US">Connector on top cover (internal side)</P>
+		</TD>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P LANG="en-US">Contacts</P>
+			<P LANG="en-US">Bouchon</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P LANG="en-US">Fischer</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P LANG="en-US">*DEE 104 Z040-80| contacts</P>
+			<P LANG="en-US">*104.714|bouchon D</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P LANG="en-US">1</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP BGCOLOR="#d9d9d9">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=63 VALIGN=TOP>
+			<P LANG="en-US">Connector on top cover (external side)</P>
+		</TD>
+		<TD WIDTH=173 VALIGN=TOP>
+			<P>Poulet</P>
+			<P>Serre Cable 
+			</P>
+			<P>Corps</P>
+			<P>Contact</P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=87 VALIGN=TOP>
+			<P>Fischer</P>
+		</TD>
+		<TD WIDTH=138 VALIGN=TOP>
+			<P>*104.1291 | Poulet</P>
+			<P>*E3-*104.2/8.7+B|SE</P>
+			<P>*E1 104.286 S 130</P>
+			<P>*E2 104.040.23 bloc de contact</P>
+		</TD>
+		<TD WIDTH=18 VALIGN=TOP>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=35 VALIGN=TOP BGCOLOR="#d9d9d9">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+
+	<TR>
+		<TD ROWSPAN=5 WIDTH=14>
+			<P LANG="en-US" ALIGN=CENTER>11</P>
+		</TD>
+		<TD ROWSPAN=2 WIDTH=81 VALIGN=TOP>
+			<P LANG="en-US">Cable between ATX DC/DC and connectic board (power
+			in)</P>
+		</TD>
+		<TD WIDTH=170 VALIGN=TOP>
+			<P LANG="en-US">Alpha Wire Black Equipment Wire, 0.96 mm&sup2;
+			CSA, 600 V 11.5 A, PTFE insulation, 18 AWG</P>
+		</TD>
+		<TD WIDTH=80 VALIGN=TOP>
+			<P LANG="en-US">Alpha Wire</P>
+		</TD>
+		<TD WIDTH=135 VALIGN=TOP>
+			<P LANG="en-US">5857 BK005</P>
+		</TD>
+		<TD WIDTH=22 VALIGN=TOP>
+			<P LANG="en-US">1</P>
+		</TD>
+		<TD WIDTH=38 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=170 VALIGN=TOP>
+			<P LANG="en-US">Alpha Wire Red Hookup Wire, 0.96 mm&sup2; CSA ,
+			600 V 11.5 A, PTFE insulation, 18 AWG</P>
+		</TD>
+		<TD WIDTH=80 VALIGN=TOP>
+			<P LANG="en-US">Alpha Wire</P>
+		</TD>
+		<TD WIDTH=135 VALIGN=TOP>
+			<P LANG="en-US">5857 RD005</P>
+		</TD>
+		<TD WIDTH=22 VALIGN=TOP>
+			<P LANG="en-US">1</P>
+		</TD>
+		<TD WIDTH=38 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=81 VALIGN=TOP>
+			<P LANG="en-US">Connector on ATX DC/DC</P>
+		</TD>
+		<TD WIDTH=170 VALIGN=TOP>
+			<P LANG="en-US">3Pin Plug-in Terminal Block Connector 5.08mm Pitch</P>
+			<P><SPAN LANG="en-US">mates with OQ 5,08 (OQ0355510000G)</SPAN> 
+			</P>
+		</TD>
+		<TD WIDTH=80 VALIGN=TOP>
+			<P>Phoenix</P>
+			<P ALIGN=CENTER><BR>
+			</P>
+		</TD>
+		<TD WIDTH=135 VALIGN=TOP>
+			<P>MSTB 2.5/3-ST-5.08 
+			</P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=22 VALIGN=TOP>
+			<P LANG="en-US">1</P>
+		</TD>
+		<TD WIDTH=38 VALIGN=TOP BGCOLOR="#d9d9d9">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2 WIDTH=81 VALIGN=TOP>
+			<P LANG="en-US">Connector on connectic</P>
+		</TD>
+		<TD WIDTH=170 VALIGN=TOP>
+			<P LANG="en-US">7.50mm Pitch Super Sabre&trade; Receptacle Crimp
+			Housing, UL 94V-0, 2 Circuits</P>
+		</TD>
+		<TD WIDTH=80 VALIGN=TOP>
+			<P>Molex</P>
+		</TD>
+		<TD WIDTH=135 VALIGN=TOP>
+			<P>39-01-4030</P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=22 VALIGN=TOP>
+			<P LANG="en-US">1</P>
+		</TD>
+		<TD WIDTH=38 VALIGN=TOP BGCOLOR="#d9d9d9">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=170 VALIGN=TOP>
+			<P LANG="en-US">Mini-Fit&reg; Female Crimp Terminal, Tin (Sn) over
+			Copper (Cu) Plated Brass, 18-24 AWG, Reel 
+			</P>
+		</TD>
+		<TD WIDTH=80 VALIGN=TOP>
+			<P>Molex</P>
+		</TD>
+		<TD WIDTH=135 VALIGN=TOP>
+			<P>39-00-0038</P>
+		</TD>
+		<TD WIDTH=22 VALIGN=TOP>
+			<P>2 
+			</P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=38 VALIGN=TOP BGCOLOR="#d9d9d9">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=4 WIDTH=14>
+			<P LANG="en-US" ALIGN=CENTER>12</P>
+		</TD>
+		<TD WIDTH=81 VALIGN=TOP>
+			<P LANG="en-US">Cable between mother board and connectic (GPIO)</P>
+		</TD>
+		<TD WIDTH=170 VALIGN=TOP>
+			<P>C&acirc;ble en nappe, 10 voies, larg. 12,7 mm, pas de 1.27mm,
+			longueur 500mm, 28 AWG 
+			</P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=80 VALIGN=TOP>
+			<P>Radiospares</P>
+		</TD>
+		<TD WIDTH=135 VALIGN=TOP>
+			<P>214-0661</P>
+			<P><BR>
+			</P>
+			<P><BR>
+			</P>
+			<P ALIGN=CENTER><BR>
+			</P>
+		</TD>
+		<TD WIDTH=22 VALIGN=TOP>
+			<P>4</P>
+		</TD>
+		<TD WIDTH=38 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=81 VALIGN=TOP>
+			<P>Connector on mother board</P>
+		</TD>
+		<TD WIDTH=170 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=80 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=135 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=22 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=38 VALIGN=TOP BGCOLOR="#d9d9d9">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2 WIDTH=81 VALIGN=TOP>
+			<P>Connector on connectic</P>
+		</TD>
+		<TD WIDTH=170 VALIGN=TOP>
+			<P LANG="en-US">2.54mm Pitch C-Grid III&trade; Crimp Housing Dual
+			Row, 8 Circuits</P>
+		</TD>
+		<TD WIDTH=80 VALIGN=TOP>
+			<P>Molex</P>
+		</TD>
+		<TD WIDTH=135 VALIGN=TOP>
+			<P>90142-0008</P>
+		</TD>
+		<TD WIDTH=22 VALIGN=TOP>
+			<P LANG="en-US">1</P>
+		</TD>
+		<TD WIDTH=38 VALIGN=TOP BGCOLOR="#d9d9d9">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=170 VALIGN=TOP>
+			<P LANG="en-US">C-Grid III&trade; Crimp Terminal, 22-24 AWG, Reel,
+			Tin (Sn) 
+			</P>
+		</TD>
+		<TD WIDTH=80 VALIGN=TOP>
+			<P>Molex</P>
+		</TD>
+		<TD WIDTH=135 VALIGN=TOP>
+			<P>90119-2121</P>
+		</TD>
+		<TD WIDTH=22 VALIGN=TOP>
+			<P LANG="en-US">4</P>
+		</TD>
+		<TD WIDTH=38 VALIGN=TOP BGCOLOR="#d9d9d9">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=14>
+			<P LANG="en-US" ALIGN=CENTER>13</P>
+		</TD>
+		<TD WIDTH=81 VALIGN=TOP>
+			<P LANG="en-US">Cable between pump and connectic</P>
+		</TD>
+		<TD WIDTH=170 VALIGN=TOP>
+			<P LANG="en-US">Standard pump cable</P>
+		</TD>
+		<TD WIDTH=80 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=135 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=22 VALIGN=TOP>
+			<P LANG="en-US">1</P>
+		</TD>
+		<TD WIDTH=38 VALIGN=TOP BGCOLOR="#ffffff">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=14>
+			<P LANG="en-US" ALIGN=CENTER>14</P>
+		</TD>
+		<TD WIDTH=81 VALIGN=TOP>
+			<P LANG="en-US">Cable between mother board and connectic (network)
+						</P>
+		</TD>
+		<TD WIDTH=170 VALIGN=TOP>
+			<P LANG="en-US">Standard network cable</P>
+		</TD>
+		<TD WIDTH=80 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=135 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=22 VALIGN=TOP>
+			<P LANG="en-US">1</P>
+		</TD>
+		<TD WIDTH=38 VALIGN=TOP BGCOLOR="#ffffff">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=14>
+			<P LANG="en-US" ALIGN=CENTER>15</P>
+		</TD>
+		<TD WIDTH=81 VALIGN=TOP>
+			<P LANG="en-US">Cable between Atx DC/DC and Motherboard</P>
+		</TD>
+		<TD WIDTH=170 VALIGN=TOP>
+			<P LANG="en-US">Standard ATX cable</P>
+		</TD>
+		<TD WIDTH=80 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=135 VALIGN=TOP>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=22 VALIGN=TOP>
+			<P LANG="en-US">1</P>
+		</TD>
+		<TD WIDTH=38 VALIGN=TOP BGCOLOR="#ffffff">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+</TABLE>
 
 # 6. Setup GPIO wires #
 
