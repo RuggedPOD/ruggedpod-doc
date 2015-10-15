@@ -156,7 +156,7 @@ RuggedPOD is an electronic chassis designed to run outdoor and support up to 1kW
   </TR> 
   <TR>  
  <TD> 35°c </TD> 
- <TD> 100 W </TD> 
+ <TD> 1000 W </TD> 
   </TR> 
  <TR>  
  <TD> 45°c </TD> 
