@@ -219,7 +219,7 @@ Fdsdfsdfsd
 # X. Maintenance #
 >**Important:** All maintenance activity must be done out of the production field in a separated aera, RuggedPOD power off by a trained technician.
 >Check regularly oil leaks from the ends and the welded parts of the panels. If oil is leaking, report it to the manufacturer.
->
+
 ### X.I. Alveolar panels ###
 
 It is necessary to take a special care for alveolar panels maintenance and inspection, since any
@@ -227,7 +227,7 @@ abnormality can reduce the useful life of the servers or cause serious defects.
 Be sure that alveoli are not obstructed.
 This recommendation is especially important in a dusty environment.
 
->To clean the panel you can use pressure washer taking care to cable.
+> To clean the panel you can use pressure washer taking care to cable.
 
 ### X.II.Tank ###
 
