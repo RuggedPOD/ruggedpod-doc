@@ -152,7 +152,8 @@ Due to the fact that the deterioration of the oil is caused generally by the oxi
 method to prevent consists of reducing to a minimum possible its contact surface with the
 air. That is why vaccum condition is needed inside the tank, this will avoid oil oxidation and guaranty a constant pressure despite oil heat variation.
 >**Important:** If you constat vaccum issue please contact the manufacturer.
->
+
+
 ### VI.I Required equipment ###
 
  - Vaccum pump
@@ -218,17 +219,20 @@ RuggedPOD is an electronic chassis designed to run outdoor and support up to 1kW
 </TABLE> 
 
 >**Important:** these values correspond to RuggedPOD in a shaded environement.
->
+
+
 # VIII. Turn on the POD #
 
 >**Important:** Only trained technicians may handle the RuggedPOD.
->
+
+
 ### VIII.I. Power up the POD ###
 
 Plug power cable to broker.
 drawing to add
 >**Important:** Never use RuggedPOD without broker, you will expose you to high electrical danger.
->
+
+
 ### VIII.II. tgtgt ###
 
 # IX. Configuration #
@@ -354,7 +358,8 @@ Oil leaks are more likely at the welds, so check occasionally the welds between 
 Seeing oil at the ground may due to oil leakage too.
 In case of oil leakage, power off the POD and contact the manufacturer.
 >**Important:** Oil leakage means you have probably also an air leakage, don not use ruggedPOD in that condition.
->
+
+
 # XII. Compliance #
 
 Normes US et normes EU
