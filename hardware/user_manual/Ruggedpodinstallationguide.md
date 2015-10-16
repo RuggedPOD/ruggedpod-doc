@@ -67,7 +67,7 @@ Shipping carton includes:
  - 1 Power cable
  - 1 Network cable
 
-### III.I. Safety ###
+### a) Safety ###
 
 Before installing a RuggedPOD, be sure that you understand the following warnings and cautions.
 
@@ -80,14 +80,14 @@ times.
 • Do not route the power cord where it can be walked on or pinched by items placed against it.
 Pay particular attention to the plug, electrical outlet, and the point where the cord extends from the server.
 
-### III.II. Required tools ###
+### b) Required tools ###
 
 You need the following items for some procedures:
 • Torx T-15 screwdriver
 • Phillips screwdriver
 • Flathead screwdriver
 
-### III.III Blade servers assembly ###
+### c) Blade servers assembly ###
 
 #### Motherboards ####
 
@@ -137,15 +137,15 @@ DCDC
 Pump
 Network
 
-# IV. Mounting blade on RuggedPOD #
+# 4) Mounting blade on RuggedPOD #
 
 Rack the blade
 
-# V. Fill RuggedPOD with oil #
+# 5) Fill RuggedPOD with oil #
 
 Fill the tank gently avoiding to pour oil directly on the backplane until the level reaches approximately 3/4 of the tank.
 
-# VI. Create vaccum #
+# 6) Create vaccum #
 
 Due to the fact that the deterioration of the oil is caused generally by the oxidation, the
 method to prevent consists of reducing to a minimum possible its contact surface with the
@@ -154,18 +154,18 @@ air. That is why vaccum condition is needed inside the tank, this will avoid oil
 >**Important:** If you constat vaccum issue please contact the manufacturer.
 
 
-### VI.I Required equipment ###
+### a) Required equipment ###
 
  - Vaccum pump
  - Screwdriver
 
-### VI.II Closing the tank ###
+### b) Closing the tank ###
 
 Take care that the sealer is properly positioned in its trench.
 Plug Network and power out put cable to related network and power supply.
 Position the cover on the tank, then screw each 24 screws.
 
-### VI.III Vaccum ###
+### c) Vaccum ###
 
 Take the pump and plug it on the valve.
 Turn of the valve and wait that pressure comes below 0.2 bar.
@@ -175,9 +175,9 @@ We recommend to check that the pressure did not rise up during the hour followin
 >**Note:** RuggedPOD is designed for 25 vaccum cycles.
 
 
-# VII. Implementation locations #
+# 7) Implementation locations #
 
-### VII.I. Installation recommendations ###
+### a) Installation recommendations ###
 
  - RuggedPOD is designed to run in outdoor condition provided by keeping it protected from direct expostion to sun light.
  - It must be placed in a flat surface on a support which ensures an elevation of at least 50 cm from the ground to allow free convection cooling.
@@ -186,16 +186,16 @@ We recommend to check that the pressure did not rise up during the hour followin
  - Floor must support at least 200kg/m2.
  - In case of implementation in a very dusty place a regular cleaning of the alveoli is needed, these being obstructed may cause free convection stop and harm cooling.
  - 
-### VII.II. Outdoor ###
+### b) Outdoor ###
 
 We recommend to make PODs difficult to access to public and unauthorized persons to avoid from stealing and degradation.
 
-### VII.III. Indoor ###
+### c) Indoor ###
 
 Rugged pod must be in a ventilated environement to avoid ambiant temperature increasing.
 Always keep ruggedPOD in at least 50cm free aera.
 
-### VII.IV. Operating temperatures table ###
+### d) Operating temperatures table ###
 
 RuggedPOD is an electronic chassis designed to run outdoor and support up to 1kW without active cooling element, the amount of power it's able of support is function of the ambiant temperature.
 
@@ -222,12 +222,12 @@ RuggedPOD is an electronic chassis designed to run outdoor and support up to 1kW
 >**Important:** these values correspond to RuggedPOD in a shaded environement.
 
 
-# VIII. Turn on the POD #
+# 8) Turn on the POD #
 
 >**Important:** Only trained technicians may handle the RuggedPOD.
 
 
-### VIII.I. Power up the POD ###
+### a) Power up the POD ###
 
 Plug power cable to broker.
 drawing to add
@@ -235,11 +235,11 @@ drawing to add
 >**Important:** Never use RuggedPOD without broker, you will expose you to high electrical danger.
 
 
-### VIII.II. tgtgt ###
+### b) tgtgt ###
 
-# IX. Configuration #
+# 9) Configuration #
 
-### IX.I. BMC ###
+### a) BMC ###
 
 The backpanel integrates a remote management card able to provide the following core functions :
  - Remote power on/off of each Blades
@@ -249,16 +249,16 @@ The backpanel integrates a remote management card able to provide the following 
  - Pump control
 These actions are available through a ReST API, as well as CLI, a web interface and require initial setup of the remote management card.
 
-### IX.II. Bios Setting ###
+### b) Bios Setting ###
 
 Fdsdfsdfsd
 
-# X. Maintenance #
+# 10) Maintenance #
 
 >**Important:** All maintenance activity must be done out of the production field in a separated aera, RuggedPOD power off by a trained technician.
 >Check regularly oil leaks from the ends and the welded parts of the panels. If oil is leaking, report it to the manufacturer.
 
-### X.I. Alveolar panels ###
+### a) Alveolar panels ###
 
 It is necessary to take a special care for alveolar panels maintenance and inspection, since any
 abnormality can reduce the useful life of the servers or cause serious defects.
@@ -267,7 +267,7 @@ This recommendation is especially important in a dusty environment.
 
 > To clean the panel you can use pressure washer taking care to cable.
 
-### X.II.Tank ###
+### b) Tank ###
 
 #### Unseal the Tank ####
 
@@ -325,9 +325,9 @@ Screw the new one.
 
 #### Change Connection Board ####
 
-# XI. General Problem #
+# 11) General Problem #
 
-### XI.I. Hardware Problem ###
+### a) Hardware Problem ###
 
 #### Power ####
 
@@ -337,9 +337,9 @@ Screw the new one.
 
 #### Storage ####
 
-### XI.II. Software Problem ###
+### b) Software Problem ###
 
-### XI.III. Vaccum Problem ###
+### c) Vaccum Problem ###
 
 To air leakage, verify the pressure inside the tank thanks to the manometer, any increasing means there is an air leakage. In that case follow the instructions below:
 
@@ -354,7 +354,7 @@ To air leakage, verify the pressure inside the tank thanks to the manometer, any
 
 If after following this process there is always a leakage, please contat the manufacturer.
 
-### XI.I.  Oil leakage ###
+### d) Oil leakage ###
 
 Oil leaks are more likely at the welds, so check occasionally the welds between two pannels.
 Seeing oil at the ground may due to oil leakage too.
@@ -363,14 +363,14 @@ In case of oil leakage, power off the POD and contact the manufacturer.
 >**Important:** Oil leakage means you have probably also an air leakage, don not use ruggedPOD in that condition.
 
 
-# XII. Compliance #
+# 7) Compliance #
 
 Normes US et normes EU
 Sécurité incendie produit inflammable
 Sécurité electrique
 Etancheité eau et air
 
-# XIII. Specifications #
+# 8) Specifications #
 
 #### Mechanical specifications ####
 
@@ -422,7 +422,7 @@ Etancheité eau et air
   </TR> 
  </Table>
 
-# XIV. Support Information #
+# 9) Support Information #
 
 Before you contact us, be sure to have the following informations :
  - Product serial number
