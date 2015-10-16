@@ -185,7 +185,8 @@ We recommend to check that the pressure did not rise up during the hour followin
  - Keep a clear space of at least 50cm from each side of the RuggedPOD.
  - Floor must support at least 200kg/m2.
  - In case of implementation in a very dusty place a regular cleaning of the alveoli is needed, these being obstructed may cause free convection stop and harm cooling.
- - 
+
+
 ### b) Outdoor ###
 
 We recommend to make PODs difficult to access to public and unauthorized persons to avoid from stealing and degradation.
@@ -363,14 +364,14 @@ In case of oil leakage, power off the POD and contact the manufacturer.
 >**Important:** Oil leakage means you have probably also an air leakage, don not use ruggedPOD in that condition.
 
 
-# 7) Compliance #
+# 12) Compliance #
 
 Normes US et normes EU
 Sécurité incendie produit inflammable
 Sécurité electrique
 Etancheité eau et air
 
-# 8) Specifications #
+# 13) Specifications #
 
 #### Mechanical specifications ####
 
@@ -422,7 +423,7 @@ Etancheité eau et air
   </TR> 
  </Table>
 
-# 9) Support Information #
+# 14) Support Information #
 
 Before you contact us, be sure to have the following informations :
  - Product serial number
