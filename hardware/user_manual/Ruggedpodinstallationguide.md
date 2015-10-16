@@ -2,16 +2,13 @@ RuggedPOD
 ===================
 Installation and User Guide
 -----------
+
 > **IMPORTANT INFORMATION** 
 > Read all the operational instructions, safety recommendations and all warnings provided in the instruction manual.  
 Most accidents encountered are merely due to the failed observance of basic safety standards.  
 Accidents are prevented by foreseeing potentially hazardous situations and observing the appropriate safety standards.  
 The fundamental safety standards are listed in the “SAFETY” section of this manual and also in the section involving.  
 The Manufacturer reserves the right to up-date the technical information gifrven in this manual without notice.  
-
-# Content #
-
-[TOC]
 
 # I. Overview #
 
@@ -73,6 +70,7 @@ Shipping carton includes:
 ### III.I. Safety ###
 
 Before installing a RuggedPOD, be sure that you understand the following warnings and cautions.
+
 >**WARNING**: To reduce the risk of electric shock or damage to the equipment:
 >• Do not disable the power cord grounding plug. The grounding plug is an important safety
 feature.
@@ -94,6 +92,7 @@ You need the following items for some procedures:
 #### Motherboards ####
 
 Each blade supports mini-ITX, Micro Atx or Atx form factor motherboard, do not try to mount other format. 
+
 >**Note**: We will use an ATX motherboard as an example on each illustration.
 >
 1. Install processor, memory and every features on the motherboard, please refer to the user manuel of the board manufacturer.
@@ -151,6 +150,7 @@ Fill the tank gently avoiding to pour oil directly on the backplane until the le
 Due to the fact that the deterioration of the oil is caused generally by the oxidation, the
 method to prevent consists of reducing to a minimum possible its contact surface with the
 air. That is why vaccum condition is needed inside the tank, this will avoid oil oxidation and guaranty a constant pressure despite oil heat variation.
+
 >**Important:** If you constat vaccum issue please contact the manufacturer.
 
 
@@ -171,6 +171,7 @@ Take the pump and plug it on the valve.
 Turn of the valve and wait that pressure comes below 0.2 bar.
 Then turn off the pump and unplug it.
 We recommend to check that the pressure did not rise up during the hour following the creation of the vacuum.
+
 >**Note:** RuggedPOD is designed for 25 vaccum cycles.
 
 
@@ -230,6 +231,7 @@ RuggedPOD is an electronic chassis designed to run outdoor and support up to 1kW
 
 Plug power cable to broker.
 drawing to add
+
 >**Important:** Never use RuggedPOD without broker, you will expose you to high electrical danger.
 
 
@@ -357,6 +359,7 @@ If after following this process there is always a leakage, please contat the man
 Oil leaks are more likely at the welds, so check occasionally the welds between two pannels.
 Seeing oil at the ground may due to oil leakage too.
 In case of oil leakage, power off the POD and contact the manufacturer.
+
 >**Important:** Oil leakage means you have probably also an air leakage, don not use ruggedPOD in that condition.
 
 
