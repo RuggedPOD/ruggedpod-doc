@@ -10,7 +10,7 @@ Accidents are prevented by foreseeing potentially hazardous situations and obser
 The fundamental safety standards are listed in the “SAFETY” section of this manual and also in the section involving.  
 The Manufacturer reserves the right to up-date the technical information gifrven in this manual without notice.  
 
-# I. Overview #
+# 1) Overview #
 
 RuggedPOD is a chassis designed to run outdoor and support up to 1kW without active cooling element. The PODs are designed to be interconnected together as a mesh network even if they can support traditional topologies. Each POD must be equipped with a network input and a power supply input. 
 
@@ -18,21 +18,21 @@ RuggedPOD is using the thermal property of oil to cool electronic systems. It is
 
 ![Ruggedpod exploded view](http://www.horizon-computing.com/Webdav/Public/ruggedpod_usermanual/pictures/overview/exploded.jpg)
 
-### I.I. Mechanical ###
+### a) Mechanical ###
 
 The pod is designed to support 4 Blades, each equipped with 1 motherboard (ATX/mini ITX/Micro ATX), a 3,5'HDD, 1 SSD and a pump.
 The blades are mounted on a backplane located at the bottom of the chassis, this one provides power to the motherboards.
 
-### I.II. Power managment ###
+### b) Power managment ###
 
 The power supply provides 1kW in 24V distributed to the blades and the network switch.
 4 DCDC boards are located on the blades as mezzanine boards to convert the power in appropriate voltage for the motherboards, 1 other DCDC located in the bottom of the chassis convert the power for the switch.
 
-### I.III. Network ###
+### c) Network ###
 
 The Blades are connected to a switch via the backplane. This can provide Remote management and control, thanks to it's controller function.
 
-### I.IV.Sensors ###
+### d) Sensors ###
 
 Sensors are arranged in order to contol :
 CPU temperature
@@ -43,18 +43,18 @@ coolant level (leak detection)
 Power consumption
 All sensors are connected to the controler board.
 
-### I.V. Coolant ###
+### e) Coolant ###
 
 Organic oil coolant for RuggedPOD is fully bio compatible, and can work without degradation up to -10 C degrees. As to offer lower temperature operation RuggedPOD support a heating option to avoid that the oil temperature goes too low especially during system maintenance or shutdown operation.
 
-# II. Waranty and safety #
+# 2) Waranty and safety #
 
 The installation and handling of a RuggedPOD is for technicians trained in electrical products only.  
 Never work on a Running Ruggedpod.
 Always disconnect RuggedPod from the power outlet while working on it.  
 Never open a RuggedPOD when raining or in a wet environement.
 
-# III. Installation #
+# 3) Installation #
 
 Unpack the ruggedPOD shipping carton, and locate the materiel for installing the POD.
 Shipping carton includes:
