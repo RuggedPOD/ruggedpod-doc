@@ -1,7 +1,6 @@
-RuggedPOD
-===================
-Installation and User Guide
------------
+# RuggedPOD installation and user guide #
+----------
+
 
 > **IMPORTANT INFORMATION** 
 > Read all the operational instructions, safety recommendations and all warnings provided in the instruction manual.  
@@ -10,7 +9,7 @@ Accidents are prevented by foreseeing potentially hazardous situations and obser
 The fundamental safety standards are listed in the “SAFETY” section of this manual and also in the section involving.  
 The Manufacturer reserves the right to up-date the technical information gifrven in this manual without notice.  
 
-# 1) Overview #
+## 1) Overview ##
 
 RuggedPOD is a chassis designed to run outdoor and support up to 1kW without active cooling element. The PODs are designed to be interconnected together as a mesh network even if they can support traditional topologies. Each POD must be equipped with a network input and a power supply input. 
 
@@ -47,14 +46,14 @@ All sensors are connected to the controler board.
 
 Organic oil coolant for RuggedPOD is fully bio compatible, and can work without degradation up to -10 C degrees. As to offer lower temperature operation RuggedPOD support a heating option to avoid that the oil temperature goes too low especially during system maintenance or shutdown operation.
 
-# 2) Waranty and safety #
+## 2) Waranty and safety ##
 
 The installation and handling of a RuggedPOD is for technicians trained in electrical products only.  
 Never work on a Running Ruggedpod.
 Always disconnect RuggedPod from the power outlet while working on it.  
 Never open a RuggedPOD when raining or in a wet environement.
 
-# 3) Installation #
+## 3) Installation ##
 
 Unpack the ruggedPOD shipping carton, and locate the materiel for installing the POD.
 Shipping carton includes:
@@ -137,15 +136,15 @@ DCDC
 Pump
 Network
 
-# 4) Mounting blade on RuggedPOD #
+## 4) Mounting blade on RuggedPOD ##
 
 Rack the blade
 
-# 5) Fill RuggedPOD with oil #
+## 5) Fill RuggedPOD with oil ##
 
 Fill the tank gently avoiding to pour oil directly on the backplane until the level reaches approximately 3/4 of the tank.
 
-# 6) Create vaccum #
+## 6) Create vaccum ##
 
 Due to the fact that the deterioration of the oil is caused generally by the oxidation, the
 method to prevent consists of reducing to a minimum possible its contact surface with the
@@ -175,7 +174,7 @@ We recommend to check that the pressure did not rise up during the hour followin
 >**Note:** RuggedPOD is designed for 25 vaccum cycles.
 
 
-# 7) Implementation locations #
+## 7) Implementation locations ##
 
 ### a) Installation recommendations ###
 
@@ -223,7 +222,7 @@ RuggedPOD is an electronic chassis designed to run outdoor and support up to 1kW
 >**Important:** these values correspond to RuggedPOD in a shaded environement.
 
 
-# 8) Turn on the POD #
+## 8) Turn on the POD ##
 
 >**Important:** Only trained technicians may handle the RuggedPOD.
 
@@ -238,7 +237,7 @@ drawing to add
 
 ### b) tgtgt ###
 
-# 9) Configuration #
+## 9) Configuration ##
 
 ### a) BMC ###
 
@@ -254,7 +253,7 @@ These actions are available through a ReST API, as well as CLI, a web interface 
 
 Fdsdfsdfsd
 
-# 10) Maintenance #
+## 10) Maintenance ##
 
 >**Important:** All maintenance activity must be done out of the production field in a separated aera, RuggedPOD power off by a trained technician.
 >Check regularly oil leaks from the ends and the welded parts of the panels. If oil is leaking, report it to the manufacturer.
@@ -326,7 +325,7 @@ Screw the new one.
 
 #### Change Connection Board ####
 
-# 11) General Problem #
+## 11) General Problem ##
 
 ### a) Hardware Problem ###
 
@@ -364,14 +363,14 @@ In case of oil leakage, power off the POD and contact the manufacturer.
 >**Important:** Oil leakage means you have probably also an air leakage, don not use ruggedPOD in that condition.
 
 
-# 12) Compliance #
+## 12) Compliance ##
 
 Normes US et normes EU
 Sécurité incendie produit inflammable
 Sécurité electrique
 Etancheité eau et air
 
-# 13) Specifications #
+## 13) Specifications ##
 
 #### Mechanical specifications ####
 
@@ -423,9 +422,10 @@ Etancheité eau et air
   </TR> 
  </Table>
 
-# 14) Support Information #
+## 14) Support Information ##
 
-Before you contact us, be sure to have the following informations :
+Before you contact us, be sure to have the following informations:
+
  - Product serial number
  - Product serie name
  - List item
