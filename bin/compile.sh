@@ -74,7 +74,7 @@ do
 	iconv -f ISO8859-9 -t UTF-8 -o /tmp/$input_short_file_name /tmp/$input_short_file_name.1
 	target_file_name_pdf=`echo $short_file_name | sed 's/\.html$/\.pdf/'`
 	target_file_name_pdf="/usr/share/wordpress/documentation/pdf/"$target_file_name_pdf
-	pandoc -t latex --toc -s -S -V toctitle:'Table of content' -o $target_file_name_pdf /tmp/$input_short_file_name
+	pandoc -t latex --latex-engine=xelatex --toc -s -S -V toctitle:'Table of content' -o $target_file_name_pdf /tmp/$input_short_file_name
 	chown -Rf vejmarie $target_file_name
 	chgrp -Rf www-data $target_file_name
 	chown -Rf vejmarie $target_file_name_pdf
