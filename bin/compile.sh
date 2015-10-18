@@ -68,6 +68,7 @@ do
 		chgrp -Rf www-data /usr/share/wordpress/documentation/pdf
 	fi
 	cp $filename /tmp
+	echo $filename $input_short_filename
 	( cat /tmp/$input_short_filename | sed 's/http:\/\/ruggedpod.qyshare.com\//\/usr\/share\/wordpress\//' ) > /tmp/$input_short_filename.1
 	cp /tmp/$input_short_filename.1 /tmp/$input_short_filename
 	target_file_name_pdf=`echo $short_file_name | sed 's/\.html$/\.pdf/'`
