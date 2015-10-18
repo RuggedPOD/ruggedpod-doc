@@ -58,6 +58,7 @@ do
 		web_path=""
 		directory_names=`echo $directory_names | sed 's/\.md$/\.html/'`
 		target_file_name="/usr/share/wordpress/documentation/"$directory_names
+		input_short_file_name="./"$file_name
 		short_file_name=$directory_names
 	fi
 	pandoc -t html5 --toc -s -S -V toctitle:'Table of content' -o $target_file_name $file_name
@@ -68,12 +69,12 @@ do
 		chgrp -Rf www-data /usr/share/wordpress/documentation/pdf
 	fi
 	cp $file_name /tmp
-	echo $file_name $input_short_filename
-	( cat /tmp/$input_short_filename | sed 's/http:\/\/ruggedpod.qyshare.com\//\/usr\/share\/wordpress\//' ) > /tmp/$input_short_filename.1
-	cp /tmp/$input_short_filename.1 /tmp/$input_short_filename
+	echo $file_name $input_short_file_name
+	( cat /tmp/$input_short_file_name | sed 's/http:\/\/ruggedpod.qyshare.com\//\/usr\/share\/wordpress\//' ) > /tmp/$input_short_file_name.1
+	iconv -f ISO8859-9 -t UTF-8 -o /tmp/$input_short_file_name /tmp/$input_short_file_name.1
 	target_file_name_pdf=`echo $short_file_name | sed 's/\.html$/\.pdf/'`
 	target_file_name_pdf="/usr/share/wordpress/documentation/pdf/"$target_file_name_pdf
-	pandoc -t latex --toc -s -S -V toctitle:'Table of content' -o $target_file_name_pdf /tmp/$input_short_filename
+	pandoc -t latex --toc -s -S -V toctitle:'Table of content' -o $target_file_name_pdf /tmp/$input_short_file_name
 	chown -Rf vejmarie $target_file_name
 	chgrp -Rf www-data $target_file_name
 	chown -Rf vejmarie $target_file_name_pdf
