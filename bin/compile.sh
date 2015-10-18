@@ -51,6 +51,7 @@ do
 			target_path=$target_path"/"$dir_entry
 			web_path=$web_path"/"$dir_entry
 		done
+		input_short_file_name=$short_file_name
 		short_file_name=`echo $short_file_name | sed 's/\.md$/\.html/'`
 		target_file_name=$target_path"/"$short_file_name
 	else
@@ -66,9 +67,12 @@ do
 		chown -Rf www-data /usr/share/wordpress/documentation/pdf
 		chgrp -Rf www-data /usr/share/wordpress/documentation/pdf
 	fi
+	cp $filename /tmp
+	( cat /tmp/$input_short_filename | sed 's/http:\/\/ruggedpod.qyshare.com\//\/usr\/share\/wordpress\//' ) > /tmp/$input_short_filename.1
+	cp /tmp/$input_short_filename.1 /tmp/$input_short_filename
 	target_file_name_pdf=`echo $short_file_name | sed 's/\.html$/\.pdf/'`
 	target_file_name_pdf="/usr/share/wordpress/documentation/pdf/"$target_file_name_pdf
-	pandoc -t latex --toc -s -S -V toctitle:'Table of content' -o $target_file_name_pdf $file_name
+	pandoc -t latex --toc -s -S -V toctitle:'Table of content' -o $target_file_name_pdf /tmp/$input_short_filename
 	chown -Rf vejmarie $target_file_name
 	chgrp -Rf www-data $target_file_name
 	chown -Rf vejmarie $target_file_name_pdf
