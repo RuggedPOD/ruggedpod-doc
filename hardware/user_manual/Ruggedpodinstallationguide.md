@@ -15,7 +15,7 @@ RuggedPOD is a chassis designed to run outdoor and support up to 1kW without act
 
 RuggedPOD is using the thermal property of oil to cool electronic systems. It is using an immersive approach, which is avoiding the need of any humidity control solution, as water doesn’t mix into RuggedPOD coolant which makes it a unique outdoor solution.
 
-![Ruggedpod exploded view](http://ruggedpod.qyshare.com/Webdav/Public/ruggedpod_usermanual/pictures/overview/exploded.jpg)
+![Ruggedpod exploded view](/usr/share/wordpress//Webdav/Public/ruggedpod_usermanual/pictures/overview/exploded.jpg)
 
 ### a) Mechanical ###
 
@@ -97,7 +97,7 @@ Each blade supports mini-ITX, Micro Atx or Atx form factor motherboard, do not t
 1. Install processor, memory and every features on the motherboard, please refer to the user manuel of the board manufacturer.
 2. Screw the motherboard on the blade chassis.
 
-![Motherboard mounting](http://ruggedpod.qyshare.com/Webdav/Public/ruggedpod_usermanual/pictures/installation/motherboard_mounting.jpg)
+![Motherboard mounting](/usr/share/wordpress//Webdav/Public/ruggedpod_usermanual/pictures/installation/motherboard_mounting.jpg)
 
 #### Hard drives ####
 
@@ -107,28 +107,28 @@ Each blade supports mini-ITX, Micro Atx or Atx form factor motherboard, do not t
 1. Slide the hard drive in the bay
 2. Screw the drive
 
-![enter image description here](http://ruggedpod.qyshare.com/Webdav/Public/ruggedpod_usermanual/pictures/installation/harddrives.jpg)
+![enter image description here](/usr/share/wordpress//Webdav/Public/ruggedpod_usermanual/pictures/installation/harddrives.jpg)
 
 #### DCDC ####
 
 >1. Position the DCDC 
 2. Screw the board
 
-![DCDC mounting](http://ruggedpod.qyshare.com/Webdav/Public/ruggedpod_usermanual/pictures/installation/dcdc_mounting.jpg)
+![DCDC mounting](/usr/share/wordpress//Webdav/Public/ruggedpod_usermanual/pictures/installation/dcdc_mounting.jpg)
 
 #### Connection board ####
 
 >1. Position the Connection board
 2. Screw the board
 
-![Connection board mounting](http://ruggedpod.qyshare.com/Webdav/Public/ruggedpod_usermanual/pictures/installation/connecting_board_mount.jpg)
+![Connection board mounting](/usr/share/wordpress//Webdav/Public/ruggedpod_usermanual/pictures/installation/connecting_board_mount.jpg)
 
 #### Pump ####
 
 >1. Position the pump
 2. Screw it
 
-![pump mounting](http://ruggedpod.qyshare.com/Webdav/Public/ruggedpod_usermanual/pictures/installation/pump_mounting.jpg)
+![pump mounting](/usr/share/wordpress//Webdav/Public/ruggedpod_usermanual/pictures/installation/pump_mounting.jpg)
 
 #### Cabling ####
 
