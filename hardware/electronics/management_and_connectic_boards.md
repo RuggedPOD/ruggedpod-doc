@@ -14,10 +14,10 @@ Each RuggedPOD will support 4 microATX motherboard or 4 mini ITX board. Each boa
 The board we have developed is a remote management backplane. It is has got 4 slots in order to receive maximum 4 motherboards. On each blade there is a connectic board where resides motherboard peripheral (power, networking, pump and GPIO). The combination (backplane and connectic board) provides processing power, I/O and network to the motherboard. Backplane solution is very advantageous for this project because it reduces wire length and quantity.
 
 Management backplane the following format:
-![](http://www.horizon-computing.com/Webdav/Public/ruggedpod_electronics/backplane.png)
+![](http://ruggedpod.qyshare.com/Webdav/Public/ruggedpod_electronics/backplane.png)
 
 Connectic board has the following format:
-![](http://www.horizon-computing.com/Webdav/Public/ruggedpod_electronics/connectic_board.png)
+![](http://ruggedpod.qyshare.com/Webdav/Public/ruggedpod_electronics/connectic_board.png)
 
 This board mainly offers to motherboards:
 
@@ -105,7 +105,7 @@ This board mainly offers to motherboards:
 
 # 2. Functional schematics #
 
-![](http://www.horizon-computing.com/Webdav/Public/ruggedpod_electronics/functional_schematics.png)
+![](http://ruggedpod.qyshare.com/Webdav/Public/ruggedpod_electronics/functional_schematics.png)
 
 # 3. Functions description #
 
@@ -278,15 +278,15 @@ The main power comes from a 24V, 600W alimentation bloc which is placed into the
 
 RuggedPod is power supplied with a TDK SWS600L-24 generator. It is low profile model and outputs 24VDC with 600W power. Input voltage for standard application is 100AC-240VAC (50/60Hz). 
 
-![](http://www.horizon-computing.com/Webdav/Public/ruggedpod_electronics/psu.png)
+![](http://ruggedpod.qyshare.com/Webdav/Public/ruggedpod_electronics/psu.png)
 
 SR Power PB142 is 24V DC-DC ATX PC power supply. It is designed to provide high efficient power supply and can receive On/Off control from the motherboard.  PB142 provides up to 9A on the 12V rail, making it ideal for operating with Intel i7 core systems. It provides 10A on 3.3V and 9A on 5V leaving ample power for peripherals (multiple hard drives…).
 
-![](http://www.horizon-computing.com/Webdav/Public/ruggedpod_electronics/dcdc.png)
+![](http://ruggedpod.qyshare.com/Webdav/Public/ruggedpod_electronics/dcdc.png)
 
 SR Power D2D AT is another DC/DC converter which provides 5 V 10A and 12V 8A from 24VDC input. It supplies Ethernet switch (12V, 1A), four pumps (12V, 1.2A), Raspberry Pi (5V, 1A) and all ICs.
 
-![](http://www.horizon-computing.com/Webdav/Public/ruggedpod_electronics/d2d.png)
+![](http://ruggedpod.qyshare.com/Webdav/Public/ruggedpod_electronics/d2d.png)
 
 # 3.2. Remote management #
 
@@ -307,7 +307,7 @@ Raspberry board offers the possibility to on/off or reset the blade independentl
 
 Raspberry also controls power on and power off of the pumps in order to keep a homogeneous and stable temperature into the Rugged Pod.
 
-![](http://www.horizon-computing.com/Webdav/Public/ruggedpod_electronics/raspberry.png)
+![](http://ruggedpod.qyshare.com/Webdav/Public/ruggedpod_electronics/raspberry.png)
 
 # 4. Schematics and layout #
 
@@ -346,7 +346,7 @@ Raspberry also controls power on and power off of the pumps in order to keep a h
 </TR>
 </table>
 
-![](http://www.horizon-computing.com/Webdav/Public/ruggedpod_electronics/power_header_molex.png)
+![](http://ruggedpod.qyshare.com/Webdav/Public/ruggedpod_electronics/power_header_molex.png)
 #### 4.1.2. Data header FCI 10018783-10000MLF ####
 
 <TABLE >
@@ -1545,14 +1545,14 @@ Raspberry also controls power on and power off of the pumps in order to keep a h
 
 Connect RX (com1) on RX (J52) and TX (com1) on TX (J52)
 
-![](http://www.horizon-computing.com/Webdav/Public/ruggedpod_electronics/serial_console1.png)
-![](http://www.horizon-computing.com/Webdav/Public/ruggedpod_electronics/serial_console2.png)
+![](http://ruggedpod.qyshare.com/Webdav/Public/ruggedpod_electronics/serial_console1.png)
+![](http://ruggedpod.qyshare.com/Webdav/Public/ruggedpod_electronics/serial_console2.png)
 
 # 6.2. Power on/ off and reset #
-![](http://www.horizon-computing.com/Webdav/Public/ruggedpod_electronics/power_on_off.png)
+![](http://ruggedpod.qyshare.com/Webdav/Public/ruggedpod_electronics/power_on_off.png)
 
-![](http://www.horizon-computing.com/Webdav/Public/ruggedpod_electronics/power_on_off_2350.png)
+![](http://ruggedpod.qyshare.com/Webdav/Public/ruggedpod_electronics/power_on_off_2350.png)
 
 # 6.3. Pumps #
-![](http://www.horizon-computing.com/Webdav/Public/ruggedpod_electronics/pumps.png)
+![](http://ruggedpod.qyshare.com/Webdav/Public/ruggedpod_electronics/pumps.png)
 
