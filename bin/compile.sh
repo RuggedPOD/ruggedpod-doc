@@ -66,9 +66,9 @@ do
 		chown -Rf www-data /usr/share/wordpress/documentation/pdf
 		chgrp -Rf www-data /usr/share/wordpress/documentation/pdf
 	fi
-	$target_file_name_pdf=`echo $short_file_name | sed 's/\.md$/\.pdf/'`
-	$target_file_name_pdf="/usr/share/wordpress/documentation/pdf/"$target_file_name_pdf
-	pandoc -t pdf --toc -s -S -V toctitle:'Table of content' -o $target_file_name_pdf $file_name
+	target_file_name_pdf=`echo $short_file_name | sed 's/\.md$/\.pdf/'`
+	target_file_name_pdf="/usr/share/wordpress/documentation/pdf/"$target_file_name_pdf
+	pandoc -t latex --toc -s -S -V toctitle:'Table of content' -o $target_file_name_pdf $file_name
 	chown -Rf vejmarie $target_file_name
 	chgrp -Rf www-data $target_file_name
 	chown -Rf vejmarie $target_file_name_pdf
