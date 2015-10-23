@@ -82,9 +82,10 @@ Pay particular attention to the plug, electrical outlet, and the point where the
 ### b) Required tools ###
 
 You need the following items for some procedures:
-• Torx T-15 screwdriver
-• Phillips screwdriver
-• Flathead screwdriver
+
+- Torx T-15 screwdriver
+- Phillips screwdriver
+- Flathead screwdriver
 
 ### c) Blade servers assembly ###
 
