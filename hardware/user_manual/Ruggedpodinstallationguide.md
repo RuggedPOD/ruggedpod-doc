@@ -33,13 +33,15 @@ The Blades are connected to a switch via the backplane. This can provide Remote 
 
 ### d) Sensors ###
 
-Sensors are arranged in order to contol :
-CPU temperature
-Coolant temperature
-Casing (external) tempemrature
-External ambiant temperature
-coolant level (leak detection)
-Power consumption
+Sensors are arranged in order to control :
+
+- CPU temperature
+- Coolant temperature
+- Casing (external) temperature
+- External ambiant temperature
+- coolant level (leak detection)
+- Power consumption
+
 All sensors are connected to the controler board.
 
 ### e) Coolant ###
