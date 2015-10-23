@@ -243,6 +243,7 @@ drawing to add
 ### a) BMC ###
 
 The backpanel integrates a remote management card able to provide the following core functions :
+
  - Remote power on/off of each Blades
  - Remote reset of each Blades
  - Remote console access
