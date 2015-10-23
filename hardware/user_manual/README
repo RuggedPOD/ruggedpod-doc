@@ -1,0 +1,8 @@
+To compile the file locally:
+
+- html:
+ pandoc -t html5 --toc -s -S -V toctitle:'Table of content' -o Ruggedpodinstallationguide.html Ruggedpodinstallationguide.md
+
+- pdf:
+ TODO (images should be in the repository rather than in /usr/share/wordpress/?)
+
