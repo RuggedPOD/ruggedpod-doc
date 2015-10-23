@@ -70,13 +70,14 @@ Shipping carton includes:
 
 Before installing a RuggedPOD, be sure that you understand the following warnings and cautions.
 
->**WARNING**: To reduce the risk of electric shock or damage to the equipment:
->• Do not disable the power cord grounding plug. The grounding plug is an important safety
+**WARNING**: To reduce the risk of electric shock or damage to the equipment:
+
+- Do not disable the power cord grounding plug. The grounding plug is an important safety
 feature.
-• Plug the power cord into a grounded (earthed) electrical outlet that is easily accessible at all
+- Plug the power cord into a grounded (earthed) electrical outlet that is easily accessible at all
 times.
-• Unplug the power cord from the power supply to disconnect power to the equipment.
-• Do not route the power cord where it can be walked on or pinched by items placed against it.
+- Unplug the power cord from the power supply to disconnect power to the equipment.
+- Do not route the power cord where it can be walked on or pinched by items placed against it.
 Pay particular attention to the plug, electrical outlet, and the point where the cord extends from the server.
 
 ### b) Required tools ###
