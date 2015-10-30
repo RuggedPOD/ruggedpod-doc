@@ -1,4 +1,7 @@
-# RuggedPOD Firmware specifications v1.0
+---
+title: RuggedPOD Firmware specifications v1.0
+author: RuggedPOD team
+---
 
 RuggedPOD chassis is designed to run 24 hours a day in very harsh environments that is why it includes a complex remote management system which is flexible enough to be extended. The firmware is designed to be operated without any local human action. It can be run on a single or dual management board to sustain redundancy.
 
