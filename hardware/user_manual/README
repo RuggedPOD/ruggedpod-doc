@@ -7,4 +7,9 @@ To compile the file locally (see also ../../bin/compile.sh):
  TODO (images should be in the repository rather than in /usr/share/wordpress/?)
  1. scp -r <login>@ruggedpod.qyshare.com:/usr/share/wordpress/Webdav/Public/ruggedpod_usermanual/pictures ./
  2. sed 's!http://ruggedpod.qyshare.com/Webdav/Public/ruggedpod_usermanual/pictures/!./pictures/!' Ruggedpodinstallationguide.md > Ruggedpodinstallationguide-local.md
- 3. pandoc -t latex --latex-engine=xelatex --toc -s -S -V toctitle:'Table of content' -o Ruggedpodinstallationguide-local.pdf Ruggedpodinstallationguide-local.md
+ 3. pandoc -t latex --latex-engine=xelatex --toc -s -S -V toctitle:'Table of content' -V documentclass=scrartcl -o Ruggedpodinstallationguide-local.pdf Ruggedpodinstallationguide-local.md
+
+Pandoc notes:
+
+- http://pandoc.org/demo/example9/templates.html
+  -V documentclass=scrartcl
