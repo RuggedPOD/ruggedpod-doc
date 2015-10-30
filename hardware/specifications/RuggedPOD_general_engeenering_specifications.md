@@ -1,6 +1,7 @@
-# RuggedPOD V1 general engeenering specifications #
-
-----------
+---
+title: RuggedPOD V1 general engeenering specifications
+author: RuggedPOD Team
+---
 
 ## 1) Introduction ##
 
