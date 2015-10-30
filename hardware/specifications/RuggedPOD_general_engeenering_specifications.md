@@ -10,21 +10,23 @@ RuggedPOD is a revolutionary computer and electronic chassis designed to run out
 RuggedPOD is using the thermal property of oil to cool electronic systems. It is using an immersive approach, which is avoiding the need of any humidity control solution, as water doesn’t mix into RuggedPOD coolant which makes it a unique outdoor solution.
 
 RuggedPOD benefits are:
-True Free Cooling
-Everywhere: outdoor and also indoor 
-Eco friendly
-Quick and easy deployment
-Standard electronic devices
+
+- True Free Cooling
+- Everywhere: outdoor and also indoor 
+- Eco friendly
+- Quick and easy deployment
+- Standard electronic devices
 
 ## 2) Design Guidelines ##
 
 ### a) Operating conditions ###
 
 The product can run outdoor, so it have to be bad weather conditions resistant, it means:
-Be waterproof > IP68 Norma
-The chassis must be stainless
-Windproof
-Mobile : RuggedPOD must be easy to transport
+
+- Be waterproof > IP68 Norma
+- The chassis must be stainless
+- Windproof
+- Mobile: RuggedPOD must be easy to transport
 
 ### b) Electrical ###
 
@@ -71,13 +73,15 @@ The Blades are connected to a switch via the backplane. This can provide Remote 
 
 ### e) Sensors ###
 
-Sensors are arranged in order to contol :
-CPU temperature
-Coolant temperature
-Casing (external) tempemrature
-External ambiant temperature
-coolant level (leak detection)
-Power consumption
+Sensors are arranged in order to contol:
+
+- CPU temperature
+- Coolant temperature
+- Casing (external) tempemrature
+- External ambiant temperature
+- coolant level (leak detection)
+- Power consumption
+
 All sensors are connected to the controler backplane,
 
 ### e) Remote management/Software ###
