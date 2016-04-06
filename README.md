@@ -1,11 +1,14 @@
-##This is RuggedPOD documentation tree
+# RuggedPOD
 
-You will find in this tree everything regarding RuggedPOD project. From software specifications to hardware, as well as theoretical results from RuggedPOD.
-You can easily contribute to this documentation either by being a reviewer or writing some part of it. The documentation is accessible through our git 
+![RuggedPOD](img/ruggedpod.png)
 
-git clone ssh://YOUR_LOGIN@ruggedpod.qyshare.com/home/vejmarie/doc/doc.git
+RuggedPOD is a microdatacenter project designed under the [Open Compute Project](http://www.opencompute.org/)
+license. The project aims to create the most energy efficient datacenter solution
+in the world, through a building block approach without the need of expensive
+upfront infrastructure.
 
-Then use traditionnal git push, pull and commit command. You need an account on our server. To do that simply register to https://ruggedpod.qyshare.com/wp-login then send a mail to team(at)ruggedpod.qyshare.com to enable this account as being a writer.
-
-The maintainer is vejmarie and can be reached at vejmarie(at)ruggedpod.qyshare.com
-
+The solution is designed to run outdoor, produced everywhere around the world
+through communities of hackers. It can be used for edge computing, datacenter,
+low cost Telecom solutions, SMB or corporate customers. Use cases are still under
+heavy investigation and raised by our daily expanding community as this
+breakthrough technology is able to get the cloud back outside !
