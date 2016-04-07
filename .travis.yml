@@ -14,7 +14,7 @@ install:
 
 script:
   - gitbook build
-  - gitbook pdf . ruggedpod-documentation.pdf
+  - gitbook pdf . _book/ruggedpod-documentation.pdf
 
 after_success:
   - bash deploy.sh
