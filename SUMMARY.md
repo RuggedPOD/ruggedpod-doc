@@ -1,5 +1,28 @@
 # Summary
 
 * [User Guide](user-guide/README.md)
+    * [Blades](user-guide/blades/README.md)
+        * [Power management](user-guide/blades/power.md)
+        * [Operating System deployment](user-guide/blades/operating-system.md)
+        * [Serial console](user-guide/blades/serial.md)
+    * [Pod](user-guide/pod/README.md)
+        * [Power management](user-guide/pod/power.md)
+        * [Pumps](user-guide/pod/pumps.md)
+    * [Users](user-guide/users/README.md)
+        * [Manage users](user-guide/users/users.md)
+        * [Profiles & authorizations](user-guide/users/profiles.md)
+
 * [System Administrator Guide](admin-guide/README.md)
+    * [Initial setup](admin-guide/setup/README.md)
+    * [RuggedPOD firmware](admin-guide/firmware/README.md)
+        * [Overview](admin-guide/firmware/overview/README.md)
+        * [Architecture](admin-guide/firmware/architecture/README.md)
+        * [Build you own](admin-guide/firmware/build/README.md)
+    * [Networking](admin-guide/networking/README.md)
+    * [I2C bus](admin-guide/i2c/README.md)
+    * [Troubleshooting](admin-guide/troubleshooting/README.md)
+
 * [Factory Operator Guide](factory-guide/README.md)
+    * [MicroSD card firmware copy](factory-guide/firmware-copy/README.md)
+    * [RuggedPOD assembly](factory-guide/assembly/README.md)
+    * [Burn tests](factory-guide/burn-test/README.md)
