@@ -1,15 +1,23 @@
+sudo: required
+dist: trusty
+
 language: node_js
+
+before_install:
+  - sudo apt-get update
+  - sudo apt-get install -y --force-yes calibre xvfb
+  - Xvfb :10 -ac &
+  - export DISPLAY=:10
 
 install:
   - npm install -g gitbook-cli
 
 script:
   - gitbook build
+  - gitbook pdf . ruggedpod-documentation.pdf
 
 after_success:
   - bash deploy.sh
-
-sudo: false
 
 env:
   global:
